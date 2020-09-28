@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: yellow;
+  color: darkgreen; }
+
+.sinia {
+  margin: 200px auto;
+  max-width: 500px;
+  height: auto;
+  background: transparent;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer; }
+  .sinia .sahani1,
+  .sinia .sahani2,
+  .sinia .sahani3 {
+    width: 90%;
+    margin: 10px 1rem;
+    background: white;
+    height: 50px;
+    transition: 0.4s; }
+
+.change .sahani1 {
+  -webkit-transform: rotate(-45deg) translate(-10px, 20px);
+  transform: rotate(-45deg) translate(-50px, 50px); }
+
+.change .sahani2 {
+  opacity: 0; }
+
+.change .sahani3 {
+  -webkit-transform: rotate(45deg) translate(-10px, 20px);
+  transform: rotate(45deg) translate(-25px, -70px); }
